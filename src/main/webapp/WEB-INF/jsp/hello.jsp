@@ -7,6 +7,21 @@
 </head>    
 <body>    
 <h1>Welcome to Spring MVC</h1>    
-    <p>Message is: ${message}</p>    
+    <p>Message is: ${message}</p>   
+    
+    
+    
+    
+    
+    
+    
+    
+    <hr>
+    
+    
+    
+    
+    <br>
+    hola  
 </body>    
 </html>   
