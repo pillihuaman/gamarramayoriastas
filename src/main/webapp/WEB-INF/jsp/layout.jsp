@@ -7,10 +7,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
     <title><tiles:insertAttribute name="title" ignore="true" /></title> 
       <meta name="viewport" content="width=device-with, initial-scale=1.0"/>
-     <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet"> 
-   <link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
-    <script src="<c:url value="/resources/js/jquery/jquery-2.2.4.min.js" />"></script>
-    <script src="<c:url value="/resources/js/main.js" />"></script>
+      
+ <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">   
+ <link href="<c:url value="/resources/css/animate.css" />" rel="stylesheet"> 
+ <link href="<c:url value="/resources/css/core-style.css" />" rel="stylesheet"> 
+ <link href="<c:url value="/resources/css/font-awesome.min.css" />" rel="stylesheet"> 
+ <link href="<c:url value="/resources/css/jquery-ui.min.css" />" rel="stylesheet"> 
+ <link href="<c:url value="/resources/css/magnific-popup.css" />" rel="stylesheet"> 
+  <link href="<c:url value="/resources/css/nouislider.css" />" rel="stylesheet"> 
+   <link href="<c:url value="/resources/css/owl.carousel.css" />" rel="stylesheet"> 
+    <link href="<c:url value="/resources/css/responsive.css" />" rel="stylesheet"> 
+    <link href="<c:url value="/resources/css/themify-icons.css" />" rel="stylesheet"> 
+
+    
     </head>    
     <body>    
             <div><tiles:insertAttribute name="header" /></div>    
@@ -19,6 +28,16 @@
             <tiles:insertAttribute name="body" /></div>    
             <div style="clear:both"><tiles:insertAttribute name="footer" /></div>    
 
-
+   <script src="<c:url value="/resources/js/jquery/jquery-2.2.4.min.js" />"></script>
+   <script src="<c:url value="/resources/js/active.js" />"></script>
+   <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+    <script src="<c:url value="/resources/js/main.js" />"></script>
+    <script src="<c:url value="/resources/js/plugins.js" />"></script>
+    <script src="<c:url value="/resources/js/popper.min.js" />"></script>
+   
+    
+    <script src="<c:url value="/resources/js/main.js" />"></script>
+    
+    
     </body>    
     </html>    
